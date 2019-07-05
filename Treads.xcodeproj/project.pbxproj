@@ -7,23 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20C7442226727D200E9CDD0 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20C7441226727D200E9CDD0 /* CurrentRunVC.swift */; };
+		E20C744A2267496C00E9CDD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20C74492267496C00E9CDD0 /* Main.storyboard */; };
+		E20C744C226761E300E9CDD0 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20C744B226761E300E9CDD0 /* LocationVC.swift */; };
+		E20C744E2267E52E00E9CDD0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20C744D2267E52E00E9CDD0 /* Extensions.swift */; };
+		E23034DA22693A7900F58C30 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23034D922693A7900F58C30 /* Run.swift */; };
+		E23034DC2269C72800F58C30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23034DB2269C72800F58C30 /* Constants.swift */; };
+		E23034DE2269F38500F58C30 /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23034DD2269F38500F58C30 /* RunLogCell.swift */; };
+		E23034E0226A59A800F58C30 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23034DF226A59A800F58C30 /* Location.swift */; };
+		E2440D08226B082F000228E9 /* RealmConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2440D07226B082F000228E9 /* RealmConfiguration.swift */; };
 		E2EE32AA22662845000DAA90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE32A922662845000DAA90 /* AppDelegate.swift */; };
-		E2EE32AC22662845000DAA90 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE32AB22662845000DAA90 /* FirstViewController.swift */; };
-		E2EE32AE22662845000DAA90 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE32AD22662845000DAA90 /* SecondViewController.swift */; };
-		E2EE32B122662845000DAA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32AF22662845000DAA90 /* Main.storyboard */; };
+		E2EE32AC22662845000DAA90 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE32AB22662845000DAA90 /* BeginRunVC.swift */; };
+		E2EE32AE22662845000DAA90 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE32AD22662845000DAA90 /* RunLogVC.swift */; };
 		E2EE32B322662846000DAA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32B222662846000DAA90 /* Assets.xcassets */; };
 		E2EE32B622662846000DAA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32B422662846000DAA90 /* LaunchScreen.storyboard */; };
+		E2EE32D522663754000DAA90 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C322663752000DAA90 /* Montserrat-Italic.ttf */; };
+		E2EE32D622663754000DAA90 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C422663752000DAA90 /* Montserrat-SemiBold.ttf */; };
+		E2EE32D722663754000DAA90 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C522663752000DAA90 /* Montserrat-ExtraLightItalic.ttf */; };
+		E2EE32D822663754000DAA90 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C622663752000DAA90 /* Montserrat-ExtraBoldItalic.ttf */; };
+		E2EE32D922663754000DAA90 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C722663753000DAA90 /* Montserrat-Light.ttf */; };
+		E2EE32DA22663754000DAA90 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C822663753000DAA90 /* Montserrat-ExtraBold.ttf */; };
+		E2EE32DB22663754000DAA90 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32C922663753000DAA90 /* Montserrat-BoldItalic.ttf */; };
+		E2EE32DC22663754000DAA90 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32CA22663753000DAA90 /* Montserrat-Regular.ttf */; };
+		E2EE32DD22663754000DAA90 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32CB22663753000DAA90 /* Montserrat-SemiBoldItalic.ttf */; };
+		E2EE32DE22663754000DAA90 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32CC22663753000DAA90 /* Montserrat-ExtraLight.ttf */; };
+		E2EE32DF22663754000DAA90 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32CD22663753000DAA90 /* Montserrat-Medium.ttf */; };
+		E2EE32E022663754000DAA90 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32CE22663753000DAA90 /* Montserrat-BlackItalic.ttf */; };
+		E2EE32E122663754000DAA90 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32CF22663753000DAA90 /* Montserrat-MediumItalic.ttf */; };
+		E2EE32E222663754000DAA90 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32D022663753000DAA90 /* Montserrat-Thin.ttf */; };
+		E2EE32E322663754000DAA90 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32D122663754000DAA90 /* Montserrat-LightItalic.ttf */; };
+		E2EE32E422663754000DAA90 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32D222663754000DAA90 /* Montserrat-ThinItalic.ttf */; };
+		E2EE32E522663754000DAA90 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32D322663754000DAA90 /* Montserrat-Bold.ttf */; };
+		E2EE32E622663754000DAA90 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EE32D422663754000DAA90 /* Montserrat-Black.ttf */; };
+		EE0DEA94C02226694935117B /* Pods_Treads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7CB9F4750341D523C1B8EC /* Pods_Treads.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E70654768B468C7A3FBE77A /* Pods-Treads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Treads/Pods-Treads.debug.xcconfig"; sourceTree = "<group>"; };
+		2A7CB9F4750341D523C1B8EC /* Pods_Treads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FB8059B1E8E88919801DB4 /* Pods-Treads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treads.release.xcconfig"; path = "Pods/Target Support Files/Pods-Treads/Pods-Treads.release.xcconfig"; sourceTree = "<group>"; };
+		E20C7441226727D200E9CDD0 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		E20C74492267496C00E9CDD0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E20C744B226761E300E9CDD0 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		E20C744D2267E52E00E9CDD0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E23034D922693A7900F58C30 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		E23034DB2269C72800F58C30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E23034DD2269F38500F58C30 /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
+		E23034DF226A59A800F58C30 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E2440D07226B082F000228E9 /* RealmConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfiguration.swift; sourceTree = "<group>"; };
 		E2EE32A622662845000DAA90 /* Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EE32A922662845000DAA90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2EE32AB22662845000DAA90 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E2EE32AD22662845000DAA90 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		E2EE32B022662845000DAA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2EE32AB22662845000DAA90 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
+		E2EE32AD22662845000DAA90 /* RunLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogVC.swift; sourceTree = "<group>"; };
 		E2EE32B222662846000DAA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2EE32B522662846000DAA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2EE32B722662846000DAA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EE32C322663752000DAA90 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		E2EE32C422663752000DAA90 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		E2EE32C522663752000DAA90 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32C622663752000DAA90 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32C722663753000DAA90 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		E2EE32C822663753000DAA90 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E2EE32C922663753000DAA90 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32CA22663753000DAA90 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E2EE32CB22663753000DAA90 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32CC22663753000DAA90 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E2EE32CD22663753000DAA90 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		E2EE32CE22663753000DAA90 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32CF22663753000DAA90 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32D022663753000DAA90 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		E2EE32D122663754000DAA90 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32D222663754000DAA90 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E2EE32D322663754000DAA90 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		E2EE32D422663754000DAA90 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0DEA94C02226694935117B /* Pods_Treads.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4021E8C53602C757C84F05E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E70654768B468C7A3FBE77A /* Pods-Treads.debug.xcconfig */,
+				38FB8059B1E8E88919801DB4 /* Pods-Treads.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6632142028A8A086FA9D03BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7CB9F4750341D523C1B8EC /* Pods_Treads.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2EE329D22662845000DAA90 = {
 			isa = PBXGroup;
 			children = (
 				E2EE32A822662845000DAA90 /* Treads */,
 				E2EE32A722662845000DAA90 /* Products */,
+				4021E8C53602C757C84F05E7 /* Pods */,
+				6632142028A8A086FA9D03BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +132,89 @@
 		E2EE32A822662845000DAA90 /* Treads */ = {
 			isa = PBXGroup;
 			children = (
+				E2EE32C22266362D000DAA90 /* Model */,
+				E2EE32C122663624000DAA90 /* View */,
+				E2EE32C022663612000DAA90 /* Controller */,
+				E2EE32BF226635FD000DAA90 /* Utilites */,
+				E2EE32BE226635EE000DAA90 /* Extensions */,
+				E2EE32BD22663592000DAA90 /* Resources */,
 				E2EE32A922662845000DAA90 /* AppDelegate.swift */,
-				E2EE32AB22662845000DAA90 /* FirstViewController.swift */,
-				E2EE32AD22662845000DAA90 /* SecondViewController.swift */,
-				E2EE32AF22662845000DAA90 /* Main.storyboard */,
 				E2EE32B222662846000DAA90 /* Assets.xcassets */,
+				E20C74492267496C00E9CDD0 /* Main.storyboard */,
 				E2EE32B422662846000DAA90 /* LaunchScreen.storyboard */,
 				E2EE32B722662846000DAA90 /* Info.plist */,
 			);
 			path = Treads;
+			sourceTree = "<group>";
+		};
+		E2EE32BD22663592000DAA90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2EE32D422663754000DAA90 /* Montserrat-Black.ttf */,
+				E2EE32CE22663753000DAA90 /* Montserrat-BlackItalic.ttf */,
+				E2EE32D322663754000DAA90 /* Montserrat-Bold.ttf */,
+				E2EE32C922663753000DAA90 /* Montserrat-BoldItalic.ttf */,
+				E2EE32C822663753000DAA90 /* Montserrat-ExtraBold.ttf */,
+				E2EE32C622663752000DAA90 /* Montserrat-ExtraBoldItalic.ttf */,
+				E2EE32CC22663753000DAA90 /* Montserrat-ExtraLight.ttf */,
+				E2EE32C522663752000DAA90 /* Montserrat-ExtraLightItalic.ttf */,
+				E2EE32C322663752000DAA90 /* Montserrat-Italic.ttf */,
+				E2EE32C722663753000DAA90 /* Montserrat-Light.ttf */,
+				E2EE32D122663754000DAA90 /* Montserrat-LightItalic.ttf */,
+				E2EE32CD22663753000DAA90 /* Montserrat-Medium.ttf */,
+				E2EE32CF22663753000DAA90 /* Montserrat-MediumItalic.ttf */,
+				E2EE32CA22663753000DAA90 /* Montserrat-Regular.ttf */,
+				E2EE32C422663752000DAA90 /* Montserrat-SemiBold.ttf */,
+				E2EE32CB22663753000DAA90 /* Montserrat-SemiBoldItalic.ttf */,
+				E2EE32D022663753000DAA90 /* Montserrat-Thin.ttf */,
+				E2EE32D222663754000DAA90 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2EE32BE226635EE000DAA90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E20C744D2267E52E00E9CDD0 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2EE32BF226635FD000DAA90 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				E23034DB2269C72800F58C30 /* Constants.swift */,
+				E2440D07226B082F000228E9 /* RealmConfiguration.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		E2EE32C022663612000DAA90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2EE32AD22662845000DAA90 /* RunLogVC.swift */,
+				E2EE32AB22662845000DAA90 /* BeginRunVC.swift */,
+				E20C7441226727D200E9CDD0 /* CurrentRunVC.swift */,
+				E20C744B226761E300E9CDD0 /* LocationVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2EE32C122663624000DAA90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E23034DD2269F38500F58C30 /* RunLogCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2EE32C22266362D000DAA90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E23034D922693A7900F58C30 /* Run.swift */,
+				E23034DF226A59A800F58C30 /* Location.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2EE32BA22662846000DAA90 /* Build configuration list for PBXNativeTarget "Treads" */;
 			buildPhases = (
+				178BD42F7A1BAC44F98B8DB8 /* [CP] Check Pods Manifest.lock */,
 				E2EE32A222662845000DAA90 /* Sources */,
 				E2EE32A322662845000DAA90 /* Frameworks */,
 				E2EE32A422662845000DAA90 /* Resources */,
+				DEF8F1C4F5E0E90F0FF3C784 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +277,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EE32E522663754000DAA90 /* Montserrat-Bold.ttf in Resources */,
 				E2EE32B622662846000DAA90 /* LaunchScreen.storyboard in Resources */,
+				E2EE32DC22663754000DAA90 /* Montserrat-Regular.ttf in Resources */,
 				E2EE32B322662846000DAA90 /* Assets.xcassets in Resources */,
-				E2EE32B122662845000DAA90 /* Main.storyboard in Resources */,
+				E2EE32E022663754000DAA90 /* Montserrat-BlackItalic.ttf in Resources */,
+				E2EE32D522663754000DAA90 /* Montserrat-Italic.ttf in Resources */,
+				E2EE32D922663754000DAA90 /* Montserrat-Light.ttf in Resources */,
+				E2EE32E622663754000DAA90 /* Montserrat-Black.ttf in Resources */,
+				E20C744A2267496C00E9CDD0 /* Main.storyboard in Resources */,
+				E2EE32DD22663754000DAA90 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				E2EE32E322663754000DAA90 /* Montserrat-LightItalic.ttf in Resources */,
+				E2EE32D822663754000DAA90 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				E2EE32E422663754000DAA90 /* Montserrat-ThinItalic.ttf in Resources */,
+				E2EE32DE22663754000DAA90 /* Montserrat-ExtraLight.ttf in Resources */,
+				E2EE32E122663754000DAA90 /* Montserrat-MediumItalic.ttf in Resources */,
+				E2EE32D622663754000DAA90 /* Montserrat-SemiBold.ttf in Resources */,
+				E2EE32E222663754000DAA90 /* Montserrat-Thin.ttf in Resources */,
+				E2EE32DF22663754000DAA90 /* Montserrat-Medium.ttf in Resources */,
+				E2EE32DA22663754000DAA90 /* Montserrat-ExtraBold.ttf in Resources */,
+				E2EE32DB22663754000DAA90 /* Montserrat-BoldItalic.ttf in Resources */,
+				E2EE32D722663754000DAA90 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		178BD42F7A1BAC44F98B8DB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Treads-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF8F1C4F5E0E90F0FF3C784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Treads/Pods-Treads-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Treads/Pods-Treads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2EE32A222662845000DAA90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2EE32AE22662845000DAA90 /* SecondViewController.swift in Sources */,
+				E20C744C226761E300E9CDD0 /* LocationVC.swift in Sources */,
+				E20C744E2267E52E00E9CDD0 /* Extensions.swift in Sources */,
+				E23034E0226A59A800F58C30 /* Location.swift in Sources */,
+				E2EE32AE22662845000DAA90 /* RunLogVC.swift in Sources */,
 				E2EE32AA22662845000DAA90 /* AppDelegate.swift in Sources */,
-				E2EE32AC22662845000DAA90 /* FirstViewController.swift in Sources */,
+				E2440D08226B082F000228E9 /* RealmConfiguration.swift in Sources */,
+				E20C7442226727D200E9CDD0 /* CurrentRunVC.swift in Sources */,
+				E23034DA22693A7900F58C30 /* Run.swift in Sources */,
+				E23034DE2269F38500F58C30 /* RunLogCell.swift in Sources */,
+				E2EE32AC22662845000DAA90 /* BeginRunVC.swift in Sources */,
+				E23034DC2269C72800F58C30 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E2EE32AF22662845000DAA90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2EE32B022662845000DAA90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2EE32B422662846000DAA90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +495,7 @@
 		};
 		E2EE32BB22662846000DAA90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E70654768B468C7A3FBE77A /* Pods-Treads.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +513,7 @@
 		};
 		E2EE32BC22662846000DAA90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FB8059B1E8E88919801DB4 /* Pods-Treads.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
